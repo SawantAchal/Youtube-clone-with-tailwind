@@ -11,15 +11,15 @@
 // const Navbar = () => {
 //     const [sidebar , setSideBar] = useState(false)
 
-//     // const handleSideBar = () => {
-//     //     setSideBar(!sidebar)
-//     // }
+//     const handleSideBar = () => {
+//         setSideBar(!sidebar)
+//     }
 
 //   return (
 //     <nav>
-//         <section className=' sticky flex md:justify-between justify-around bg-pink-300 p-3 w-full sm:w-full'>
+//         <section className='flex md:justify-between justify-around bg-pink-300 p-3 w-full sm:w-full'>
 //             <section className='flex items-center gap-1'>
-//                 <RxHamburgerMenu className='md:hidden' onClick={() => setSideBar(!sidebar)}/>
+//                 <RxHamburgerMenu className='md:hidden'/>
 //                 <img src={logo} alt='logo' className='h-8 '/>
 //                 <p className='font-bold  hidden md:block'>YouTube<span className='font-light'><sup>IN</sup></span></p>
 //             </section>
@@ -38,9 +38,7 @@
 //                 <img src={profile} alt='profile' className='h-8 ' />
 //             </section>
 //         </section>
-//         {sidebar ? <section className='bg-black/80 fixed w-full h-screen z-10 top-0 left-0'></section> : ''}
 //         <header className='bg-pink-300 w-64 h-screen text-center p-3 mb-9 hidden md:block'>
-            
 //             <section>
 //                 {
 //                     sideBar.map((item) => {
@@ -76,13 +74,3 @@
 // }
 
 // export default Navbar
-
-import React from 'react'
-
-const Navbar = () => {
-  return (
-    <div>Navbar</div>
-  )
-}
-
-export default Navbar

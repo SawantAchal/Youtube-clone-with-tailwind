@@ -17,8 +17,8 @@ import { MdOutlineFeedback } from "react-icons/md";
 export const sideBar = [
     {
         icon:< IoMdHome/>,
-        name:"Home",
-        type:"category"
+        name:"New",
+        type:"home"
     },
     {
         icon:<BsFire />,
@@ -66,9 +66,6 @@ export const sideBar = [
         type:"category",
         divider:true
     },
-]
-
-export const settingSideBar = [
     {
         icon:<MdOutlineSettings/>,
         name:"Setting",
@@ -90,3 +87,22 @@ export const settingSideBar = [
         type:"menu"
     },
 ]
+
+// export const settingSideBar = [
+
+//     {
+//         icon:<LiaFlagSolid/>,
+//         name:"Report History",
+//         type:"menu"
+//     },
+//     {
+//         icon:<TbHelp/>,
+//         name:"Help",
+//         type:"menu"
+//     },
+//     {
+//         icon:<MdOutlineFeedback/>,
+//         name:"Send Feedback",
+//         type:"menu"
+//     },
+// ]

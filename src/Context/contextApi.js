@@ -7,7 +7,7 @@ export const Context = createContext()
 //component with props
  export const AppComponent = (props) => {
     const [loading , setLoading] = useState(false)
-    const [searchReults , setSearchReults] = useState(false)
+    const [searchResults , setsearchResults] = useState(false)
     const [selecteCategories , setSelecteCategories] = useState(false)
     const [mobileMenu , setMobileMenu] = useState(false)
 
@@ -23,14 +23,14 @@ export const Context = createContext()
         //contenst la destructre kelay 
         .then(({contents}) => {
             //console.log(res)
-            setSearchReults(contents)
+            setsearchResults(contents)
             setLoading(false)
         })
     }
 
     return(
         <Context.Provider value={{
-            loading,setLoading ,searchReults ,setSearchReults,selecteCategories,setSelecteCategories,mobileMenu,setMobileMenu}}>
+            loading,setLoading ,searchResults ,setsearchResults,selecteCategories,setSelecteCategories,mobileMenu,setMobileMenu}}>
                 {props.children}
             </Context.Provider>
     )
