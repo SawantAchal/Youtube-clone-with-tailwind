@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+.env
+go to rapid api.txt
 
 # testing
 /coverage

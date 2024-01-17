@@ -5,7 +5,9 @@ import { AppComponent } from './Context/contextApi';
 function App() {
   return (
     <>
-      <AppComponent />
+      <AppComponent>
+
+      </AppComponent>
     </>
   );
 }
