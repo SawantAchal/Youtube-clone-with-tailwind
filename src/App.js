@@ -1,10 +1,12 @@
 import './App.css';
+import Navbar from './Components/Navbar';
+import { AppComponent } from './Context/contextApi';
 
 function App() {
   return (
-    <div className="bg-black">
-
-    </div>
+    <>
+      <AppComponent />
+    </>
   );
 }
 
