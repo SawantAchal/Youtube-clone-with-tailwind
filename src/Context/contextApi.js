@@ -19,9 +19,11 @@ export const Context = createContext()
         setLoading(true)
         fetchDataFromApi(`search/?q=${query}`)
         // return Promise
-        .then((res) => {
-            console.log(res)
-            setSearchReults(res)
+        //contents he console madhe data distoy teva to naav yeto mhanun res chya badli contents ghetla
+        //contenst la destructre kelay 
+        .then(({contents}) => {
+            //console.log(res)
+            setSearchReults(contents)
             setLoading(false)
         })
     }
