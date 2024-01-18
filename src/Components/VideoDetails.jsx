@@ -1,16 +1,3 @@
-// import React from 'react'
-
-// const VideoDetails = () => {
-//   const [vi]
-//   return (
-//     <div>
-
-//     </div>
-//   )
-// }
-
-// export default VideoDetails
-
 import React, { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 import ReactPlayer from "react-player/youtube";
